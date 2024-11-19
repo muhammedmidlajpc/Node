@@ -35,7 +35,6 @@ try {
           book=modification
         }
         return book
-
       })
       books=nb
       response.json({message:"updated",data:books})
